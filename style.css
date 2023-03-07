@@ -5,15 +5,23 @@
   box-sizing: border-box;
 }
 
+body{
+  width: 100%;
+  align-items: center;
+  margin: 0;
+}
 /* Set styles for the header section */
-header {
+#header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: #2e0707;
   color: #fff;
   padding: 20px 80px;
-  z-index: sticky;
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
   
 }
 
@@ -21,7 +29,11 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+}
+#navbar {
+  display: flex;
+
 }
 
 nav ul {
